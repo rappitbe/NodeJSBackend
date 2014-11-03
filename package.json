@@ -1,36 +1,25 @@
 {
-  "name": "Joetz Backend G18",
-  "version": "0.0.1",
-  "description": "ReSTful API",
-  "keywords": [
-    "OpenShift",
-    "Node.js",
-    "application",
-    "openshift"
-  ],
-  "author": {
-    "name": "Pieter Pletinckx",
-    "email": "pieplay@gmail.com",
-    "url": "https://github.com/Proj3G18"
-  },
-  "homepage": "https://github.com/Proj3G18/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Proj3G18/NodeJSBackend"
-  },
-
-  "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.0.0"
-  },
-
+  "name": "NodeJSBackend",
+  "version": "1.0.0",
+  "description": "Restful backend",
+  "main": "server.js",
   "dependencies": {
-    "express": "4.8.1",
-	"mongoskin": "1.4.1"
+    "express": "^4.10.1",
+    "mongoskin": "^1.4.4"
   },
   "devDependencies": {},
-  "bundleDependencies": [],
-
-  "private": true,
-  "main": "server.js"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Proj3G18/NodeJSBackend.git"
+  },
+  "author": "Pieter Pletinckx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Proj3G18/NodeJSBackend/issues"
+  },
+  "homepage": "https://github.com/Proj3G18/NodeJSBackend"
 }
