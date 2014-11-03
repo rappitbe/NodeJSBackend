@@ -1,0 +1,1 @@
+db.vakantie.insert({periode: "", bestemming: "", leeftijd: "", titel: "", waar: "", wie: "", wanneer: , vervoer: "", prijs: {basisprijs:100, 1ouderprijs:100,2ouderprijs:100} ,inbegrepenindeprijs:"", informatie:"", monitoren: [001,002], deelnemers: [1001,1002]});
