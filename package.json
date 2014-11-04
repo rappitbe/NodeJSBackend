@@ -5,7 +5,8 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.10.1",
-    "mongoskin": "^1.4.4"
+    "mongoskin": "^1.4.4",
+    "passport": "^0.2.1"
   },
   "devDependencies": {},
   "scripts": {

@@ -23,9 +23,17 @@ app.get('/api/vakanties/',function(request, response){
 });
 	
 app.get('/api/vakanties/:vakantie',function(request, response){
-	var vakantie = req.params.vakantie;
+	var vakid = req.params.vakantie;
+	db.collection('vakantie').findOne({id:vakid})(function(err, result) {
+	if (err) throw err;
+	response.send(result);
+	console.log(result);
+	});
 	
 	
 	});
 	
 app.listen(8080);
+//refs
+//http://www.hacksparrow.com/mongoskin-tutorial-with-examples.html
+
