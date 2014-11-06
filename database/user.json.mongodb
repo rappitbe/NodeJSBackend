@@ -1,0 +1,31 @@
+db.vakantie.insert({
+    "_id" : ObjectId("5458c20c8cd5e2ec168f3f11"),
+    "id" : 1,
+    "rijksregisternummer" : "JJMMDD-XXX-XX",
+    "passwoord" : "hashedpassword",
+    "naam" : {
+        "voornaam" : "Voornaam",
+        "achternaam" : "Achternaam"
+    },
+    "locatie" : {
+        "straat" : "Straat",
+        "nr" : 101,
+        "bus" : 1,
+        "gemeente" : "Ergens",
+        "postcode" : 9300
+    },
+    "contact" : {
+        "email" : "email@domain.local",
+        "gsm" : "0478010101"
+    },
+    "kind" : {
+        "info" : "Korte info op smartphone"
+    },
+    "ouder" : {
+        "kinderen" : [ 
+            "JJMMDD-XXX-X1", 
+            "JJMMDD-XXX-X2"
+        ]
+    },
+    "monitor" : {}
+});

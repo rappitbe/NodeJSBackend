@@ -1,0 +1,43 @@
+{
+    {
+    "periode" : "Krokus",
+    "bestemming" : "Nieuwpoort",
+    "leeftijd" : "5-16 jarigen",
+    "titel" : "Krokusvakantie aan zee",
+    "waar" : "De Barkentijn, Nieuwpoort",
+    "wie" : "5- tot 16- jarigen (°2009 -°1998)",
+    "wanneer" : "ma 03 maart t.e.m. vr 07 maart 2014",
+    "vervoer" : "busvervoer of eigen vervoer",
+    "prijs" : {
+        "basisprijs" : 165,
+        "eenouderprijs" : 135,
+        "tweeouderprijs" : 105
+    },
+    "fiscaalAftrekbaar" : true,
+     "informatie" : {
+        "promotext" :  "Verveling krijgt geen kans tijdens de krokusvakantie ...",
+        "inbegrepenindeprijs" : [
+            "Heen- en terugreis per autocar",
+            "Verblijf in volpension, drank bij de maaltijden",
+            "Dagelijks vieruurtje",
+            "Kamers met eigen douche en toilet",
+            "Begeleiding door ervaren, gebrevetteerde monitoren",
+            "Volledig animatiepakket incl. spelmateriaal",
+            "Ongevallenverzekering"
+        ],
+         foto : ["url", "url", "url"],
+     },
+   
+        
+        
+    
+    "monitoren" : [ 
+        "JJMMDD-SS-NR", 
+        "JJMMDD-SS-NR"
+    ],
+    "deelnemers" : [ 
+        "JJMMDD-SS-NR", 
+        "JJMMDD-SS-NR"
+    ]
+}
+}
